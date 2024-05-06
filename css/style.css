@@ -3670,7 +3670,7 @@ ul.cs-list.cs-style2 li:not(:last-child) {
       right top,
       from(rgba(0, 82, 255, 0.3)),
       color-stop(95.61%, transparent));
-  background: linear-gradient(90deg,
+      background: linear-gradient(90deg,
       rgba(0, 82, 255, 0.3) 0%,
       transparent 95.61%);
 }
@@ -4042,7 +4042,8 @@ ul.cs-list.cs-style2 li:not(:last-child) {
 
 .cs-dark {
   background-color: #000;
-  color: rgba(255, 255, 255, 0.6);
+  /* color: rgba(255, 255, 255, 0.6); */
+  background-image: linear-gradient(rgb(16 104 201 / 0.77), rgba(0, 0, 0, 0.8));
 }
 
 .cs-dark .cs-btn_bordered {
